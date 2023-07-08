@@ -5,3 +5,4 @@ def compress_file(input_file, output_file):
         data = file.read()
         compressed_data = zlib.compress(data)
 
+    with open(output_file, 'wb') as file:
