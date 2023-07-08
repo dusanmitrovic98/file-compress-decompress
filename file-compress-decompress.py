@@ -15,3 +15,4 @@ def decompress_file(input_file, output_file):
         compressed_data = file.read()
         decompressed_data = zlib.decompress(compressed_data)
 
+    with open(output_file, 'wb') as file:
