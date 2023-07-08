@@ -7,3 +7,4 @@ def compress_file(input_file, output_file):
 
     with open(output_file, 'wb') as file:
         file.write(compressed_data)
+
