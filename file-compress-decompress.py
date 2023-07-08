@@ -26,3 +26,4 @@ compressed_file = "compressed_file.bin"  # Path to save the compressed file
 decompressed_file = "decompressed_file.txt"  # Path to save the decompressed file
 
 # Compress the file
+compress_file(input_file, compressed_file)
