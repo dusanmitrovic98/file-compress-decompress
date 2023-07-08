@@ -9,3 +9,4 @@ def compress_file(input_file, output_file):
         file.write(compressed_data)
 
     print(f"File '{input_file}' compressed and saved as '{output_file}'.")
+
