@@ -18,3 +18,4 @@ def decompress_file(input_file, output_file):
     with open(output_file, 'wb') as file:
         file.write(decompressed_data)
 
+    print(f"File '{input_file}' decompressed and saved as '{output_file}'.")
