@@ -23,3 +23,4 @@ def decompress_file(input_file, output_file):
 # Example usage
 input_file = "example.txt"  # Path to the input file to compress and decompress
 compressed_file = "compressed_file.bin"  # Path to save the compressed file
+decompressed_file = "decompressed_file.txt"  # Path to save the decompressed file
