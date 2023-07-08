@@ -29,3 +29,4 @@ decompressed_file = "decompressed_file.txt"  # Path to save the decompressed fil
 compress_file(input_file, compressed_file)
 
 # Decompress the file
+decompress_file(compressed_file, decompressed_file)
