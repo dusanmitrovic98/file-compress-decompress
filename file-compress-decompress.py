@@ -17,3 +17,4 @@ def decompress_file(input_file, output_file):
 
     with open(output_file, 'wb') as file:
         file.write(decompressed_data)
+
