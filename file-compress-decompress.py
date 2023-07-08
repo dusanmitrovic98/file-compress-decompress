@@ -20,3 +20,4 @@ def decompress_file(input_file, output_file):
 
     print(f"File '{input_file}' decompressed and saved as '{output_file}'.")
 
+# Example usage
