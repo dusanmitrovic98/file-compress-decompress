@@ -16,3 +16,4 @@ def decompress_file(input_file, output_file):
         decompressed_data = zlib.decompress(compressed_data)
 
     with open(output_file, 'wb') as file:
+        file.write(decompressed_data)
