@@ -10,3 +10,4 @@ def compress_file(input_file, output_file):
 
     print(f"File '{input_file}' compressed and saved as '{output_file}'.")
 
+def decompress_file(input_file, output_file):
